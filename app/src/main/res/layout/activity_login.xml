@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tv_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="@string/Login"
+        android:textSize="25sp" />
+
+    <EditText
+        android:id="@+id/et_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_login"
+        android:hint="@string/Email"
+        android:textSize="25sp"
+        android:drawablePadding="15dp"
+        android:drawableStart="@drawable/image"
+        android:drawableLeft="@drawable/image" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/et_email"
+        android:hint="@string/Password"
+        android:textSize="25sp"
+        android:drawablePadding="15dp"
+        android:drawableStart="@drawable/lock"
+        android:drawableLeft="@drawable/lock"
+
+        />
+
+    <TextView
+        android:id="@+id/forget_password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/password"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:textColor="@android:color/black"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="196dp"
+        android:layout_marginRight="196dp"
+        android:hint="@string/forget_password"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_login"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="370dp"
+        android:layout_marginRight="10dp"
+        android:text="@string/Login"
+        android:textAllCaps="false"
+
+        />
+
+</RelativeLayout>

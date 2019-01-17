@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">MyFirstApp</string>
+    <string name="welcome_msz">Welcome To Nast</string>
+    <string name="Register">Register</string>
+    <string name="Login">login</string>
+    <string name="Email">Email</string>
+    <string name="Password">Password</string>
+    <string name="forget_password">forget password</string>
+    <string name="enter_name">Enter Name</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="view_data">View Data</string>
+    <string name="add_data">Add Data</string>
+    <string name="update">Update</string>
+    <string name="new_name">New Name</string>
+    <string name="current_name">Current Name</string>
+
+</resources>
